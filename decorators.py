@@ -14,19 +14,19 @@
 #     print("Hello World")
 
 # print_message()
-# def smart_divide(func):
-#     def wrapper(a,b):
-#         print("Dividing")
-#         if b == 0:
-#             print("Error: Division by zero")
-#             return
-#         return func(a, b)
-#     return wrapper
+def smart_divide(func):
+    def wrapper(a,b):
+        print("Dividing")
+        if b == 0:
+            print("Error: Division by zero")
+            return
+        return func(a, b)
+    return wrapper
 
-# @smart_divide
-# def divide(a, b):
-#     print(a/b)
-# divide(2,0)
+@smart_divide
+def divide(a, b):
+    print(a/b)
+divide(2,0)
 
 
 def uppercase_decorator(function):
