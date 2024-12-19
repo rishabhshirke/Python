@@ -31,5 +31,3 @@ stack.append('a')
 print(stack)
 
 stack.pop()
-
-print(stack)
