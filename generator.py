@@ -27,8 +27,8 @@ def gen_func(n):
         yield value #yield is used to produce value from generator function
         value+=1
 
-g=gen_func(3)
-print(next(g))
+# g=gen_func(3)
+# print(next(g))
 # for i in gen_func(5):
 #     print(i)
 
@@ -37,8 +37,8 @@ print(next(g))
 #produces the values of expression for each item in the 
 #iterable, one at a time, when iterated over.
 
-list1=[1,2,3,4,5,6]
+# list1=[1,2,3,4,5,6]
 
-x=(x for x in list1)
-for i in x:
-    print(i)
+# x=(x for x in list1)
+# for i in x:
+#     print(i)
