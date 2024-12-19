@@ -5,3 +5,5 @@ if r:
     print("Success!")
 else:
     raise Exception(f"Non-success status code: {r.status_code}")
+
+print(r.headers)
