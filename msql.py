@@ -7,7 +7,7 @@ print(mydb)
 
 cr_obj=mydb.cursor()
 
-# cr_obj.execute("Create database Employee")
+cr_obj.execute("Create database Employee")
 
 cr_obj.execute("Use Employee")
 studentRecord = """CREATE TABLE STUDENT (
@@ -18,3 +18,4 @@ studentRecord = """CREATE TABLE STUDENT (
                    AGE INT
                    )"""
 cr_obj.execute(studentRecord)
+mydb.close()
