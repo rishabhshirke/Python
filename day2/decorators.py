@@ -4,14 +4,14 @@
 
 def add(func):
     def value():
-        print("Executed")
+        print("Hello")
 
         func()
     return value
 
 @add
 def print_message():#decorated function
-    print("Hello World")
+    print("My Name is Rishabh ")
 
 print_message()
 # def smart_divide(func):
