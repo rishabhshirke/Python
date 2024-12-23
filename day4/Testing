@@ -1,10 +1,10 @@
     UnitTest: 'unittest' is a bilt-in testing library in Python. It follows the xUnit Style and provides a tests discovery mechanism.
-    
-    
-    pytest: Pytest is third party testing framework that is widely used for its simplicity and powerful features. I has arich est of plugins and support fixtures, parameterized testing , and more.
-    
-    
+
+
+    pytest: Pytest is third party testing framework that is widely used for its simplicity and powerful features. It has a richest of plugins and support fixtures, parameterized testing , and more.
+
+
     nose2: "nose2" is an extension of the older "nose" testing framework. It provides test discovery and a variety of plugins for additional features.
-    
-    
-    doctest: "doctest" allows you to tests directly in your documentation and it extracts and runts tests from docstrings in your code. 
+
+
+    doctest: "doctest" allows you to tests directly in your documentation and it extracts and runts tests from docstrings in your code.

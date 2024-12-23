@@ -1,24 +1,3 @@
-# def test_sequence():
-#     num = 0
-#     while num < 10:
-#         yield num
-#         num += 1
-# for i in test_sequence():
-#        print(i, end=",")
-
-# print()
-# def reverse_str(test_str):
-#     length = len(test_str)
-#     for i in range(length - 1, -1, -1):
-#         yield test_str[i]
-# for char in reverse_str("Trojan"):
-#     print(char,end =" ")
-
-
-# def generator_function(arg):
-
-#     yield #somevalue
-
 
 def gen_func(n):
     value=0
@@ -29,8 +8,8 @@ def gen_func(n):
 
 # g=gen_func(3)
 # print(next(g))
-# for i in gen_func(5):
-#     print(i)
+for i in gen_func(5):
+    print(i)
 
 
 #Generator Expressions
@@ -42,3 +21,7 @@ def gen_func(n):
 # x=(x for x in list1)
 # for i in x:
 #     print(i)
+
+x=(x for x in range(100) if x % 2 ==0)
+for i in x:
+    print(i)
