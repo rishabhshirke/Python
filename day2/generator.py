@@ -25,3 +25,17 @@ for i in gen_func(5):
 x=(x for x in range(100) if x % 2 ==0)
 for i in x:
     print(i)
+
+def multiple_yield():  
+    str1 = "First String"  
+    yield str1  
+      
+    str2 = "Second string"  
+    yield str2  
+      
+    str3 = "Third String"  
+    yield str3  
+obj = multiple_yield()  
+print(next(obj))  
+print(next(obj))  
+print(next(obj))  
